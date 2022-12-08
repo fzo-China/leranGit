@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T02:45:01.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.0" etag="x5a0ZoN-_E9-apdIFeB_" type="github"><diagram id="n_Wc0c2emoXByp09GmOA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T03:29:23.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.42" version="20.6.0" etag="vohIT_DXrbc6i3aykB31" type="github">
+  <diagram id="Gu_i04CD5_fdztcKZaD5" name="第 1 页">
+    <mxGraphModel dx="1375" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-2" value="require(&#39;compression&#39;)()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-3" value="./server/middlewares/security" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-4" value="require(&#39;cors&#39;)({origin:false})" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-5" value="require(&#39;serve-favicon&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-6" value="/_assets/svg/twemoji" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="425" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-8" value="/_assets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-9" value="/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="585" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-10" value="./server/controllers/ssl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-11" value="express.static(/assets)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-12" value="require(&#39;cookie-parser&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-13" value="WIKI.asar.serve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-16" value="require(&#39;express-session&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-17" value="WIKI.auth.passport.initialize()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="810" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-18" value="WIKI.auth.authenticate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="890" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-19" value="require(&#39;body-parser&#39;).json(...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="970" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-20" value="./server/middlewares/meo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1050" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNgvg95VPeHTCMjJ2lVY-21" value="require(&#39;body-parser&#39;).urlencoded(...)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1130" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
