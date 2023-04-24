@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T06:16:14.924Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="Fa2oA7-DPP3JShxGwPDY" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T10:05:46.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="jL14OfechkWH5112y4W3" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1929" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2138" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -147,28 +147,28 @@
           <mxGeometry x="15" y="43" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-54" value="FAsyncLoadingPackage::Event_CreateLinker()" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="460" y="830" width="709" height="2000" as="geometry" />
+          <mxGeometry x="460" y="830" width="709" height="2220" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-61" value="FAsyncLoadingPackage::CreateLinker()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-54" vertex="1">
-          <mxGeometry x="40" y="33" width="669" height="1967" as="geometry" />
+          <mxGeometry x="20" y="30" width="669" height="2190" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-59" value="FLinkerLoad::CreateLinkerAsync()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-61" vertex="1">
-          <mxGeometry x="45" y="37" width="624" height="1930" as="geometry" />
+          <mxGeometry x="22.5" y="37" width="624" height="2153" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-60" value="返回Linker，创建Linker，完成后调用&lt;br&gt;FPrecacheCallbackHandler::SummaryComplete()，&lt;br&gt;将Package的弱指针加入IncomingSummaries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-59" vertex="1">
-          <mxGeometry x="-5" y="20" width="300" height="60" as="geometry" />
+          <mxGeometry x="144.5" y="20" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-62" value="FLinkerLoader::CreateLoader()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-59" vertex="1">
-          <mxGeometry x="53" y="90" width="571" height="1840" as="geometry" />
+          <mxGeometry x="26.5" y="80" width="571" height="2073" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-63" value="使用文件名实例化一个FAsyncArchive&lt;br&gt;作为Loader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-62" vertex="1">
           <mxGeometry x="22" y="22.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-64" value="FAsyncArchive::FAsyncArchive()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-62" vertex="1">
-          <mxGeometry x="12" y="63" width="559" height="1777" as="geometry" />
+          <mxGeometry x="6" y="63" width="544" height="2010" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-65" value="1. 打开文件获得Handle&lt;br&gt;2. 调用Handle-&amp;gt;SizeRequest&lt;br&gt;3. 完成后回调FAsyncArchive::ReadCallback()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-64" vertex="1">
-          <mxGeometry y="37" width="270" height="60" as="geometry" />
+          <mxGeometry x="55" y="37" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-66" value="FPakAsyncReadFileHandle::SizeRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-64" vertex="1">
           <mxGeometry x="20" y="97" width="430" height="123" as="geometry" />
@@ -183,28 +183,28 @@
           <mxGeometry y="18" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-70" value="FAsyncArchive::ReadCallback()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-64" vertex="1">
-          <mxGeometry x="20" y="237" width="539" height="1540" as="geometry" />
+          <mxGeometry x="20" y="237" width="510" height="1773" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-71" value="FAsyncArchive::PrecacheInternal()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-70" vertex="1">
-          <mxGeometry x="10" y="30" width="529" height="1510" as="geometry" />
+          <mxGeometry x="10" y="30" width="480" height="1743" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-81" value="FPakAsyncReadFileHandle::ReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-71" vertex="1">
-          <mxGeometry x="9" y="30" width="520" height="1480" as="geometry" />
+          <mxGeometry x="16.5" y="33" width="451" height="1710" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-82" value="若采用了压缩，则按Block读取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
           <mxGeometry x="116" y="150" width="169" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-83" value="FPakAsyncReadFileHandle::StartBlock()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
-          <mxGeometry x="11" y="180" width="406" height="1060" as="geometry" />
+          <mxGeometry x="11" y="180" width="429" height="1070" as="geometry" />
         </mxCell>
-        <mxCell id="HqfRS5ltP2Yi2O0K92MM-94" value="确定读取的Block区域后&lt;br&gt;创建一个FPakReadRequest&lt;br&gt;完成后调用RawReadCallback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-83" vertex="1">
+        <mxCell id="HqfRS5ltP2Yi2O0K92MM-94" value="确定读取的Block区域后&lt;br&gt;创建一个FPakReadRequest&lt;br&gt;完成后调用RawReadCallback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[[1,0.45,0,0,0],[1,0.72,0,0,0]];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-83" vertex="1">
           <mxGeometry x="29" y="20" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-95" value="FPakReadRequest::FPakReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-83" vertex="1">
-          <mxGeometry x="24" y="80" width="382" height="980" as="geometry" />
+          <mxGeometry x="24" y="80" width="396" height="990" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-96" value="FPakPrecacher::QueueRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-95" vertex="1">
-          <mxGeometry x="9" y="30" width="373" height="950" as="geometry" />
+          <mxGeometry x="9" y="30" width="373" height="960" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-97" value="构建一个FPakInRequest作为传递参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HqfRS5ltP2Yi2O0K92MM-96" vertex="1">
           <mxGeometry x="16" y="30" width="230" height="30" as="geometry" />
@@ -213,46 +213,46 @@
           <mxGeometry x="23" y="60" width="350" height="890" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-99" value="此时将请求范围对其到PAK_CACHE_GRANULARITY 65536&lt;br&gt;与Complete和InFlight&lt;font color=&quot;#ff0000&quot;&gt;区间树&lt;/font&gt;比较&lt;br&gt;若已Complete调用NotifyComplete()并返回true&lt;br&gt;若仍为Waiting则调用StartNextRequest()并返回false&lt;br&gt;若为InFlight则直接返回false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-98" vertex="1">
-          <mxGeometry y="40" width="230" height="120" as="geometry" />
+          <mxGeometry x="35" y="23" width="280" height="97" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-108" value="FPakPrecacher::StartNextRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-98" vertex="1">
-          <mxGeometry x="21.5" y="170" width="328.5" height="720" as="geometry" />
+          <mxGeometry x="10.75" y="120" width="329.25" height="720" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-109" value="FPakPrecacher::AddNewBlock()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-108" vertex="1">
           <mxGeometry x="8.5" y="30" width="320" height="690" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-110" value="创建CachedBlock，状态为InFlight，&lt;br&gt;把在Waiting区间树&lt;br&gt;状态的节点移到InFlight区间树中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-109" vertex="1">
-          <mxGeometry x="6.5" y="20" width="187" height="80" as="geometry" />
+          <mxGeometry x="39.75" y="20" width="233.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-111" value="FPakPrecacher::StartBlockTask()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-109" vertex="1">
-          <mxGeometry x="10" y="100" width="310" height="590" as="geometry" />
+          <mxGeometry x="5" y="73" width="310" height="590" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-112" value="如果没有Task Slot，则直接返回&lt;br&gt;（GPakCache_MaxRequestsToLowerLevel为2）&lt;br&gt;RequestsToLower[fillIndex]中存储了Block Index，RequestSize，Memory&lt;br&gt;执行底层读取请求，&lt;br&gt;完成后执行回调CallbackFromLower" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-111" vertex="1">
-          <mxGeometry x="20" y="40" width="270" height="90" as="geometry" />
+          <mxGeometry x="20" y="30" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-113" value="FGenericAsyncReadFileHandle::ReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-111" vertex="1">
-          <mxGeometry x="5" y="140" width="300" height="450" as="geometry" />
+          <mxGeometry x="5" y="120" width="300" height="450" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-0" value="FGenericReadRequest::FGenericReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-113">
-          <mxGeometry x="10" y="40" width="290" height="410" as="geometry" />
+          <mxGeometry x="5.75" y="30" width="290" height="410" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-1" value="创建 Task&lt;br&gt;FAsyncTask&amp;lt;FGenericReadRequestWorker&amp;gt;,&lt;br&gt;Task中也有个成员名为Task是用构造自己的FGenericReadRequest 为参数构造的FGenericReadRequestWorker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-0">
           <mxGeometry x="10" y="30" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-2" value="FGenericReadRequest::Start()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-0">
-          <mxGeometry x="15" y="110" width="255" height="300" as="geometry" />
+          <mxGeometry x="15" y="110" width="255" height="260" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-3" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Task.StartBackgroundTask()&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-2">
-          <mxGeometry x="8.5" y="50" width="239.5" height="220" as="geometry" />
+          <mxGeometry x="7.75" y="50" width="239.5" height="200" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-4" value="Task.Start()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-3">
-          <mxGeometry x="16.5" y="30" width="223" height="190" as="geometry" />
+          <mxGeometry x="8.25" y="30" width="223" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-6" value="FQueuedThreadPoolBase::&lt;br&gt;AddQueuedWork()" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-4">
-          <mxGeometry x="13" y="30" width="210" height="160" as="geometry" />
+          <mxGeometry x="6.5" y="30" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-7" value="1. 先找到空闲线程&lt;br&gt;2. 将Task赋值给线程的QueuedWork变量&lt;br&gt;3.通过DoworkEvent唤醒线程池线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-6">
-          <mxGeometry x="7.5" y="60" width="192.5" height="90" as="geometry" />
+          <mxGeometry x="9.5" y="50" width="192.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-5" value="指定执行Task的线程池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-2">
           <mxGeometry x="8.5" y="20" width="182" height="30" as="geometry" />
@@ -266,11 +266,40 @@
         <mxCell id="WKndTi2sCUyyav9ZJlg1-52" value="将FPakProcessedReadRequest加入LivedRequests中，若所需的Block都已加载完成，调用RequestIsComplete方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
           <mxGeometry x="15" y="1250" width="349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-53" value="FPakProcessedReadRequest::RequestIsComplete()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
-          <mxGeometry x="19" y="1280" width="401" height="200" as="geometry" />
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-53" value="FPakReadRequest::RequestIsComplete()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
+          <mxGeometry x="19" y="1280" width="401" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-63" value="&lt;font color=&quot;#0022ff&quot;&gt;若用户没有提供内存地址，则用FMemory::Malloc分配BytesToRead大小空间&lt;br&gt;并从CachedAsyncBlock中将数据复制到Memory处&lt;br&gt;数据准备完成后调用Callback&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+          <mxGeometry x="62.25" y="30" width="282.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-70" value="FPakPrecacher::GetCompletedRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+          <mxGeometry x="25" y="110" width="325" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-71" value="FPakPrecacher::GetCompletedRequestData()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-70">
+          <mxGeometry x="10" y="35" width="288.12" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-72" value="&lt;font color=&quot;#0022ff&quot;&gt;将Block中拷贝到ReadRequest::Memory处&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-71">
+          <mxGeometry x="2.68" y="30" width="282.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-73" value="SetDataComplete" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+          <mxGeometry x="26.5" y="220" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-74" value="回调RawReadCallback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-73">
+          <mxGeometry x="25.5" y="40" width="164.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-81" source="WKndTi2sCUyyav9ZJlg1-74" target="HqfRS5ltP2Yi2O0K92MM-94">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-64" source="HqfRS5ltP2Yi2O0K92MM-69" target="HqfRS5ltP2Yi2O0K92MM-70">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.999;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-59" source="WKndTi2sCUyyav9ZJlg1-63" target="HqfRS5ltP2Yi2O0K92MM-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="1891" />
+              <mxPoint x="528" y="51" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-85" value="FCachedAsyncBlock" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="200" y="2970" width="280" height="104" as="geometry" />
@@ -291,7 +320,7 @@
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-100" value="FPakRequest.Status变化" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1120" y="2923" width="280" height="130" as="geometry" />
+          <mxGeometry x="1130" y="3060" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-101" value="创建时为Waiting" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-100" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -303,7 +332,7 @@
           <mxGeometry y="90" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-104" value="FPakData.CacheBlock" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="810" y="2923" width="280" height="104" as="geometry" />
+          <mxGeometry x="820" y="3060" width="280" height="104" as="geometry" />
         </mxCell>
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-105" value="Complete" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-104" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -315,7 +344,7 @@
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-8" value="FQueuedThread::Run()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1220" y="830" width="290" height="530" as="geometry" />
+          <mxGeometry x="1330" y="860" width="290" height="530" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-9" value="等待DoWorkEvent唤醒后，取出QueuedWork，即ALT中创建的Task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-8">
           <mxGeometry x="21" y="33" width="239" height="47" as="geometry" />
@@ -351,10 +380,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-17" value="CallbackFromLower" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1380" y="1890" width="249" height="535" as="geometry" />
+          <mxGeometry x="1410" y="1980" width="249" height="500" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-18" value="NewRequestsToLowerComplete()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-17">
-          <mxGeometry x="9" y="35" width="240" height="500" as="geometry" />
+          <mxGeometry x="13" y="30" width="231" height="463" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-19" value="ClearOldBlockTasks()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
           <mxGeometry x="10" y="35" width="200" height="60" as="geometry" />
@@ -363,22 +392,55 @@
           <mxGeometry x="15" y="30" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-21" value="CompleteRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
-          <mxGeometry x="10" y="105" width="200" height="165" as="geometry" />
+          <mxGeometry x="10" y="160" width="200" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-49" value="根据BlockIndex获得FCacheBlock&lt;br&gt;将Memory赋予Block.Memory&lt;br&gt;Block.Status设为Complete&lt;br&gt;加入至CacheBlocks[Complete]区间树中&lt;br&gt;将InRequests[InFlight]区间树中将已完成的Request节点转移到InRequests[Complete]中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-21">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-49" value="&lt;font color=&quot;#0800ff&quot;&gt;根据BlockIndex获得FCacheBlock&lt;br&gt;将外层存储的Memory赋值Block.Memory&lt;/font&gt;&lt;br&gt;Block.Status设为Complete&lt;br&gt;加入至CacheBlocks[Complete]区间树中&lt;br&gt;将InRequests[InFlight]区间树中将已完成的Request节点转移到InRequests[Complete]中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-21">
           <mxGeometry y="20" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-54" value="Request加入到RequestsToDelete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
-          <mxGeometry x="10" y="270" width="199" height="30" as="geometry" />
+          <mxGeometry x="10" y="325" width="199" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-55" value="StartNextRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
-          <mxGeometry x="10" y="295" width="215.5" height="200" as="geometry" />
+          <mxGeometry x="10" y="350" width="215.5" height="85" as="geometry" />
         </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-56" value="CanStartAnotherTask()返回true时，&lt;br&gt;执行AddNewBlock()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-55">
           <mxGeometry x="5.5" y="40" width="210" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-69" value="将读取的Memory地址赋值RequestToLower[index].Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0022FF;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+          <mxGeometry x="37" y="108" width="163" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="WKndTi2sCUyyav9ZJlg1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-112" target="WKndTi2sCUyyav9ZJlg1-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-65" target="WKndTi2sCUyyav9ZJlg1-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-65" value="RawReadCallback" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="1470" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-68" value="从PakReadRequest请求中获得读取的内存地址结果赋值给FCachedAsyncBlock.Raw&lt;br&gt;后续在TaskGraphThreadBP中将Raw处理成Processed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#030BFF;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-65">
+          <mxGeometry x="20" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-94" target="WKndTi2sCUyyav9ZJlg1-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-76" value="FTaskThreadBase::Run()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1810" y="850" width="360" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-80" value="FTaskThreadAnyThread::ProcessTasksUntilQuit()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-76">
+          <mxGeometry x="20" y="43" width="320" height="307" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-81" value="FTaskThreadAnyThread::ProcessTasks()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-80">
+          <mxGeometry x="20" y="37" width="300" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-82" value="FBaseGraphTask::Excute()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-81">
+          <mxGeometry x="10" y="39" width="290" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-83" value="TGraphTask&amp;lt;FAsyncIOCPUWorkTast&amp;gt;::Excute()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-82">
+          <mxGeometry x="10" y="31" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-79" value="TaskGraphThreadBP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1870" y="810" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
