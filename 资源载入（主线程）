@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T10:05:46.214Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="jL14OfechkWH5112y4W3" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T10:01:12.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="la-F12_s-YxS3MWvq-o9" version="21.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2138" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2204" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -233,67 +233,67 @@
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-113" value="FGenericAsyncReadFileHandle::ReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-111" vertex="1">
           <mxGeometry x="5" y="120" width="300" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-0" value="FGenericReadRequest::FGenericReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-113">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-0" value="FGenericReadRequest::FGenericReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-113" vertex="1">
           <mxGeometry x="5.75" y="30" width="290" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-1" value="创建 Task&lt;br&gt;FAsyncTask&amp;lt;FGenericReadRequestWorker&amp;gt;,&lt;br&gt;Task中也有个成员名为Task是用构造自己的FGenericReadRequest 为参数构造的FGenericReadRequestWorker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-0">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-1" value="创建 Task&lt;br&gt;FAsyncTask&amp;lt;FGenericReadRequestWorker&amp;gt;,&lt;br&gt;Task中也有个成员名为Task是用构造自己的FGenericReadRequest 为参数构造的FGenericReadRequestWorker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-0" vertex="1">
           <mxGeometry x="10" y="30" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-2" value="FGenericReadRequest::Start()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-0">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-2" value="FGenericReadRequest::Start()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-0" vertex="1">
           <mxGeometry x="15" y="110" width="255" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-3" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Task.StartBackgroundTask()&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-2">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-3" value="&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;Task.StartBackgroundTask()&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" parent="WKndTi2sCUyyav9ZJlg1-2" vertex="1">
           <mxGeometry x="7.75" y="50" width="239.5" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-4" value="Task.Start()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-3">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-4" value="Task.Start()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-3" vertex="1">
           <mxGeometry x="8.25" y="30" width="223" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-6" value="FQueuedThreadPoolBase::&lt;br&gt;AddQueuedWork()" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-4">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-6" value="FQueuedThreadPoolBase::&lt;br&gt;AddQueuedWork()" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="WKndTi2sCUyyav9ZJlg1-4" vertex="1">
           <mxGeometry x="6.5" y="30" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-7" value="1. 先找到空闲线程&lt;br&gt;2. 将Task赋值给线程的QueuedWork变量&lt;br&gt;3.通过DoworkEvent唤醒线程池线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-6">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-7" value="1. 先找到空闲线程&lt;br&gt;2. 将Task赋值给线程的QueuedWork变量&lt;br&gt;3.通过DoworkEvent唤醒线程池线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-6" vertex="1">
           <mxGeometry x="9.5" y="50" width="192.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-5" value="指定执行Task的线程池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-2">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-5" value="指定执行Task的线程池" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-2" vertex="1">
           <mxGeometry x="8.5" y="20" width="182" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-50" value="FPakProcessedReadRequest::FPakProcessedReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-50" value="FPakProcessedReadRequest::FPakProcessedReadRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
           <mxGeometry x="15" y="80" width="395" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-51" value="创建FPakProcessedReadRequest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-51" value="创建FPakProcessedReadRequest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
           <mxGeometry x="11" y="40" width="379" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-52" value="将FPakProcessedReadRequest加入LivedRequests中，若所需的Block都已加载完成，调用RequestIsComplete方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-52" value="将FPakProcessedReadRequest加入LivedRequests中，若所需的Block都已加载完成，调用RequestIsComplete方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
           <mxGeometry x="15" y="1250" width="349" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-53" value="FPakReadRequest::RequestIsComplete()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="HqfRS5ltP2Yi2O0K92MM-81">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-53" value="FPakReadRequest::RequestIsComplete()" style="swimlane;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-81" vertex="1">
           <mxGeometry x="19" y="1280" width="401" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-63" value="&lt;font color=&quot;#0022ff&quot;&gt;若用户没有提供内存地址，则用FMemory::Malloc分配BytesToRead大小空间&lt;br&gt;并从CachedAsyncBlock中将数据复制到Memory处&lt;br&gt;数据准备完成后调用Callback&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-63" value="&lt;font color=&quot;#0022ff&quot;&gt;若用户没有提供内存地址，则用FMemory::Malloc分配BytesToRead大小空间&lt;br&gt;并从CachedAsyncBlock中将数据复制到Memory处&lt;br&gt;数据准备完成后调用Callback&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-53" vertex="1">
           <mxGeometry x="62.25" y="30" width="282.75" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-70" value="FPakPrecacher::GetCompletedRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-70" value="FPakPrecacher::GetCompletedRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-53" vertex="1">
           <mxGeometry x="25" y="110" width="325" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-71" value="FPakPrecacher::GetCompletedRequestData()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-70">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-71" value="FPakPrecacher::GetCompletedRequestData()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-70" vertex="1">
           <mxGeometry x="10" y="35" width="288.12" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-72" value="&lt;font color=&quot;#0022ff&quot;&gt;将Block中拷贝到ReadRequest::Memory处&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-71">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-72" value="&lt;font color=&quot;#0022ff&quot;&gt;将Block中拷贝到ReadRequest::Memory处&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-71" vertex="1">
           <mxGeometry x="2.68" y="30" width="282.75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-73" value="SetDataComplete" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-53">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-73" value="SetDataComplete" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-53" vertex="1">
           <mxGeometry x="26.5" y="220" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-74" value="回调RawReadCallback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-73">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-74" value="回调RawReadCallback" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-73" vertex="1">
           <mxGeometry x="25.5" y="40" width="164.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-81" source="WKndTi2sCUyyav9ZJlg1-74" target="HqfRS5ltP2Yi2O0K92MM-94">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="HqfRS5ltP2Yi2O0K92MM-81" source="WKndTi2sCUyyav9ZJlg1-74" target="HqfRS5ltP2Yi2O0K92MM-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-64" source="HqfRS5ltP2Yi2O0K92MM-69" target="HqfRS5ltP2Yi2O0K92MM-70">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;" parent="HqfRS5ltP2Yi2O0K92MM-64" source="HqfRS5ltP2Yi2O0K92MM-69" target="HqfRS5ltP2Yi2O0K92MM-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.999;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="HqfRS5ltP2Yi2O0K92MM-59" source="WKndTi2sCUyyav9ZJlg1-63" target="HqfRS5ltP2Yi2O0K92MM-60">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.999;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="HqfRS5ltP2Yi2O0K92MM-59" source="WKndTi2sCUyyav9ZJlg1-63" target="HqfRS5ltP2Yi2O0K92MM-60" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="528" y="1891" />
@@ -343,104 +343,175 @@
         <mxCell id="HqfRS5ltP2Yi2O0K92MM-107" value="DecompressionRawSize 解压后修正为解压大小" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="HqfRS5ltP2Yi2O0K92MM-104" vertex="1">
           <mxGeometry y="78" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-8" value="FQueuedThread::Run()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-8" value="FQueuedThread::Run()" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1330" y="860" width="290" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-9" value="等待DoWorkEvent唤醒后，取出QueuedWork，即ALT中创建的Task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-8">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-9" value="等待DoWorkEvent唤醒后，取出QueuedWork，即ALT中创建的Task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-8" vertex="1">
           <mxGeometry x="21" y="33" width="239" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-11" value="Task.DoThreadWork()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-8">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-11" value="Task.DoThreadWork()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-8" vertex="1">
           <mxGeometry x="7.5" y="80" width="272.5" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-12" value="Task.DoWork()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-11">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-12" value="Task.DoWork()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-11" vertex="1">
           <mxGeometry x="6" y="33" width="264" height="347" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-13" value="FGenericReadRequestWorker.DoWork()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-12">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-13" value="FGenericReadRequestWorker.DoWork()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-12" vertex="1">
           <mxGeometry x="9" y="27" width="250" height="232.5" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-14" value="FGenericReadRequest.PeformRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-13">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-14" value="FGenericReadRequest.PeformRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-13" vertex="1">
           <mxGeometry x="5" y="48" width="240" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-15" value="FGenericAsyncReadFileHandle* Owner&lt;br&gt;利用Owner获得文件Handle&lt;br&gt;Handle-&amp;gt;Seek(Offset)&lt;br&gt;Handle-&amp;gt;Read(Memory, Size)&lt;br&gt;完成后执行回调CallbackFromLower&lt;br&gt;执行完回调将bCompleteAndCallbackCalled置为true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-14">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-15" value="FGenericAsyncReadFileHandle* Owner&lt;br&gt;利用Owner获得文件Handle&lt;br&gt;Handle-&amp;gt;Seek(Offset)&lt;br&gt;Handle-&amp;gt;Read(Memory, Size)&lt;br&gt;完成后执行回调CallbackFromLower&lt;br&gt;执行完回调将bCompleteAndCallbackCalled置为true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-14" vertex="1">
           <mxGeometry x="7.5" y="30.25" width="220" height="114.5" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-58" value="Task.FinishThreadedWork()" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-12">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-58" value="Task.FinishThreadedWork()" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="WKndTi2sCUyyav9ZJlg1-12" vertex="1">
           <mxGeometry x="9" y="267" width="200" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-59" value="使用DoneEvent唤醒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-58">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-59" value="使用DoneEvent唤醒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-58" vertex="1">
           <mxGeometry x="20" y="33" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-60" value="从线程池中再取出一个QueuedWork&lt;br&gt;没有则线程休眠" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-8">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-60" value="从线程池中再取出一个QueuedWork&lt;br&gt;没有则线程休眠" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-8" vertex="1">
           <mxGeometry x="10" y="480" width="239" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-1" target="WKndTi2sCUyyav9ZJlg1-9">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-1" target="WKndTi2sCUyyav9ZJlg1-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-15" target="HqfRS5ltP2Yi2O0K92MM-112">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-15" target="HqfRS5ltP2Yi2O0K92MM-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-17" value="CallbackFromLower" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-17" value="CallbackFromLower" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1410" y="1980" width="249" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-18" value="NewRequestsToLowerComplete()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-17">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-18" value="NewRequestsToLowerComplete()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-17" vertex="1">
           <mxGeometry x="13" y="30" width="231" height="463" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-19" value="ClearOldBlockTasks()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-19" value="ClearOldBlockTasks()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-18" vertex="1">
           <mxGeometry x="10" y="35" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-20" value="清除RequestsToDelete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-19">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-20" value="清除RequestsToDelete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-19" vertex="1">
           <mxGeometry x="15" y="30" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-21" value="CompleteRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-21" value="CompleteRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-18" vertex="1">
           <mxGeometry x="10" y="160" width="200" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-49" value="&lt;font color=&quot;#0800ff&quot;&gt;根据BlockIndex获得FCacheBlock&lt;br&gt;将外层存储的Memory赋值Block.Memory&lt;/font&gt;&lt;br&gt;Block.Status设为Complete&lt;br&gt;加入至CacheBlocks[Complete]区间树中&lt;br&gt;将InRequests[InFlight]区间树中将已完成的Request节点转移到InRequests[Complete]中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-21">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-49" value="&lt;font color=&quot;#0800ff&quot;&gt;根据BlockIndex获得FCacheBlock&lt;br&gt;将外层存储的Memory赋值Block.Memory&lt;/font&gt;&lt;br&gt;Block.Status设为Complete&lt;br&gt;加入至CacheBlocks[Complete]区间树中&lt;br&gt;将InRequests[InFlight]区间树中将已完成的Request节点转移到InRequests[Complete]中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-21" vertex="1">
           <mxGeometry y="20" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-54" value="Request加入到RequestsToDelete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-54" value="Request加入到RequestsToDelete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WKndTi2sCUyyav9ZJlg1-18" vertex="1">
           <mxGeometry x="10" y="325" width="199" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-55" value="StartNextRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-55" value="StartNextRequest()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-18" vertex="1">
           <mxGeometry x="10" y="350" width="215.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-56" value="CanStartAnotherTask()返回true时，&lt;br&gt;执行AddNewBlock()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-55">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-56" value="CanStartAnotherTask()返回true时，&lt;br&gt;执行AddNewBlock()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WKndTi2sCUyyav9ZJlg1-55" vertex="1">
           <mxGeometry x="5.5" y="40" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-69" value="将读取的Memory地址赋值RequestToLower[index].Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0022FF;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-18">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-69" value="将读取的Memory地址赋值RequestToLower[index].Memory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0022FF;" parent="WKndTi2sCUyyav9ZJlg1-18" vertex="1">
           <mxGeometry x="37" y="108" width="163" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-112" target="WKndTi2sCUyyav9ZJlg1-17">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-112" target="WKndTi2sCUyyav9ZJlg1-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-65" target="WKndTi2sCUyyav9ZJlg1-76">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WKndTi2sCUyyav9ZJlg1-65" target="WKndTi2sCUyyav9ZJlg1-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-65" value="RawReadCallback" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-65" value="RawReadCallback" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1300" y="1470" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-68" value="从PakReadRequest请求中获得读取的内存地址结果赋值给FCachedAsyncBlock.Raw&lt;br&gt;后续在TaskGraphThreadBP中将Raw处理成Processed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#030BFF;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-65">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-68" value="从PakReadRequest请求中获得读取的内存地址结果赋值给FCachedAsyncBlock.Raw&lt;br&gt;后续在TaskGraphThreadBP中将Raw处理成Processed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#030BFF;" parent="WKndTi2sCUyyav9ZJlg1-65" vertex="1">
           <mxGeometry x="20" y="40" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-94" target="WKndTi2sCUyyav9ZJlg1-65">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HqfRS5ltP2Yi2O0K92MM-94" target="WKndTi2sCUyyav9ZJlg1-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-76" value="FTaskThreadBase::Run()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-76" value="FTaskThreadBase::Run()" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1810" y="850" width="360" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-80" value="FTaskThreadAnyThread::ProcessTasksUntilQuit()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-76">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-80" value="FTaskThreadAnyThread::ProcessTasksUntilQuit()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-76" vertex="1">
           <mxGeometry x="20" y="43" width="320" height="307" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-81" value="FTaskThreadAnyThread::ProcessTasks()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-80">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-81" value="FTaskThreadAnyThread::ProcessTasks()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-80" vertex="1">
           <mxGeometry x="20" y="37" width="300" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-82" value="FBaseGraphTask::Excute()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-81">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-82" value="FBaseGraphTask::Excute()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-81" vertex="1">
           <mxGeometry x="10" y="39" width="290" height="231" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-83" value="TGraphTask&amp;lt;FAsyncIOCPUWorkTast&amp;gt;::Excute()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WKndTi2sCUyyav9ZJlg1-82">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-83" value="TGraphTask&amp;lt;FAsyncIOCPUWorkTast&amp;gt;::Excute()" style="swimlane;whiteSpace=wrap;html=1;" parent="WKndTi2sCUyyav9ZJlg1-82" vertex="1">
           <mxGeometry x="10" y="31" width="280" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="WKndTi2sCUyyav9ZJlg1-79" value="TaskGraphThreadBP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WKndTi2sCUyyav9ZJlg1-79" value="TaskGraphThreadBP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1870" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-0" value="FAsyncPackage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-750" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D1mF2BIBD90JYUppUQgi-1" target="D1mF2BIBD90JYUppUQgi-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-1" value="FAsyncArchive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-570" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-2" value="FLinkerLoad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-660" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D1mF2BIBD90JYUppUQgi-6" target="D1mF2BIBD90JYUppUQgi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-6" value="FAsyncPakReadFileHandle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-570" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D1mF2BIBD90JYUppUQgi-7" target="D1mF2BIBD90JYUppUQgi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-7" value="FPakPrecaher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-570" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-8" value="FGenericReadRequest.PeformRequest()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1355" y="1140" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-9" value="FGenericAsyncReadFileHandle* Owner&lt;br&gt;利用Owner获得文件Handle&lt;br&gt;Handle-&amp;gt;Seek(Offset)&lt;br&gt;Handle-&amp;gt;Read(Memory, Size)&lt;br&gt;完成后执行回调CallbackFromLower&lt;br&gt;执行完回调将bCompleteAndCallbackCalled置为true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="D1mF2BIBD90JYUppUQgi-8">
+          <mxGeometry x="7.5" y="30.25" width="220" height="114.5" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D1mF2BIBD90JYUppUQgi-10" target="D1mF2BIBD90JYUppUQgi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-10" value="外存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-570" y="2960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-12" value="FGenericReadRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-690" y="2900" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-13" value="文件块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="2905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-14" value="FPakReadRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-690" y="2760" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-16" value="压缩块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="2765" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-18" value="解压块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-300" y="2695" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D1mF2BIBD90JYUppUQgi-6" target="D1mF2BIBD90JYUppUQgi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="2700" as="sourcePoint" />
+            <mxPoint x="-290" y="2650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-350" y="2800" />
+              <mxPoint x="-290" y="2700" />
+              <mxPoint x="-360" y="2610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-20" value="FPakProcessedReadRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-300" y="2670" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-22" value="需要数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="2630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1mF2BIBD90JYUppUQgi-23" value="Handle-&amp;gt;ReadRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-690" y="2640" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
