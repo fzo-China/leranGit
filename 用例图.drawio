@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T02:35:24.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="FiA_oQpznNsZLbQTpAFa" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T02:38:03.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="tniFHaLaWaEWLZqrKe9v" version="21.2.9" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
     <mxGraphModel dx="1149" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -209,26 +209,14 @@
             <mxPoint x="660" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="poz9PI-lkl7GwEYPIu7D-9" value="预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-27" target="MK2Ia5hPxLcxK8BkZ3UK-31">
+        <mxCell id="poz9PI-lkl7GwEYPIu7D-9" value="加载/预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-27" target="MK2Ia5hPxLcxK8BkZ3UK-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-27" value="应用层" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="1695" y="215" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-30" value="Package请求" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-27" target="MK2Ia5hPxLcxK8BkZ3UK-31" edge="1">
-          <mxGeometry x="-0.4675" y="9" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1650" y="270" as="sourcePoint" />
-            <mxPoint x="1700" y="220" as="targetPoint" />
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-37" value="Package请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-31" target="MK2Ia5hPxLcxK8BkZ3UK-36" edge="1">
-          <mxGeometry x="-0.0254" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="poz9PI-lkl7GwEYPIu7D-10" value="预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-31" target="MK2Ia5hPxLcxK8BkZ3UK-36">
-          <mxGeometry x="-0.3401" y="-7" relative="1" as="geometry">
+        <mxCell id="poz9PI-lkl7GwEYPIu7D-10" value="加载/预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-31" target="MK2Ia5hPxLcxK8BkZ3UK-36">
+          <mxGeometry x="-0.3355" y="-7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -238,7 +226,7 @@
         <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-38" value="加载完成信息" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=120;entryDy=50;entryPerimeter=0;" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-36" target="MK2Ia5hPxLcxK8BkZ3UK-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-47" value="请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-36" target="MK2Ia5hPxLcxK8BkZ3UK-46" edge="1">
+        <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-47" value="加载/预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-36" target="MK2Ia5hPxLcxK8BkZ3UK-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-36" value="回调处理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -252,7 +240,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="poz9PI-lkl7GwEYPIu7D-12" value="前置Pakcage" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-41" target="MK2Ia5hPxLcxK8BkZ3UK-46">
+        <mxCell id="poz9PI-lkl7GwEYPIu7D-12" value="前置Pakcage加载/预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MK2Ia5hPxLcxK8BkZ3UK-41" target="MK2Ia5hPxLcxK8BkZ3UK-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MK2Ia5hPxLcxK8BkZ3UK-41" value="加载线程加载Pacakge" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
