@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T12:32:46.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="HxZUp6pJdtiUZ7PfiYF_" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T12:40:31.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="kO8HWXMT5ihWishHw0aS" version="21.3.2" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
-    <mxGraphModel dx="1195" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,133 +387,136 @@
           <mxGeometry x="2376" y="603" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-64" value="未创建" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1815" width="140" height="72" as="geometry" />
+          <mxGeometry x="462" y="1440" width="140" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-73" value="等待Package加载完成" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="498" y="2120" width="150" height="72" as="geometry" />
+          <mxGeometry x="303" y="1749" width="150" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-74" value="do/过程发起依赖加载请求" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="mypdU1SL2h5hZnq9ZAHb-73">
           <mxGeometry y="40" width="150" height="32" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-79" value="加载完成" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="508" y="2390" width="140" height="72" as="geometry" />
+          <mxGeometry x="308" y="2018" width="140" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-84" value="&lt;u&gt;收到加载请求&lt;br&gt;&lt;/u&gt;创建Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="mypdU1SL2h5hZnq9ZAHb-73">
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-84" value="&lt;u&gt;收到加载请求&lt;br&gt;&lt;/u&gt;创建Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-64" target="mypdU1SL2h5hZnq9ZAHb-73">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="1887.0000000000005" as="sourcePoint" />
+            <mxPoint x="418" y="1513.0000000000005" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-97" value="&lt;u&gt;取消预加载&lt;/u&gt;&lt;br&gt;释放预加载内容" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-89" target="mypdU1SL2h5hZnq9ZAHb-64">
-          <mxGeometry x="-0.388" relative="1" as="geometry">
+          <mxGeometry x="-0.1203" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="999" y="2138" />
-              <mxPoint x="999" y="1833" />
+              <mxPoint x="837" y="1764" />
+              <mxPoint x="837" y="1459" />
+              <mxPoint x="608" y="1459" />
+              <mxPoint x="608" y="1458" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-89" value="等待加载请求" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="758.5" y="2120" width="187" height="72" as="geometry" />
+          <mxGeometry x="596.5" y="1746" width="187" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-91" value="预加载Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-101" target="mypdU1SL2h5hZnq9ZAHb-89">
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-91" value="完成Header加载" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-101" target="mypdU1SL2h5hZnq9ZAHb-89">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="852" y="2076" />
+              <mxPoint x="690" y="1702" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-92" value="&lt;u&gt;收到加载请求&lt;/u&gt;&lt;br&gt;完成剩余部分的加载" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="mypdU1SL2h5hZnq9ZAHb-103">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="851.9999999999998" y="2192.0000000000005" as="sourcePoint" />
+            <mxPoint x="689.9999999999998" y="1818.0000000000005" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-93" value="加载Export" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-74" target="mypdU1SL2h5hZnq9ZAHb-79">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="578" y="2323" as="sourcePoint" />
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-93" value="完成Package加载" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-74" target="mypdU1SL2h5hZnq9ZAHb-79">
+          <mxGeometry x="-0.21" y="-22" relative="1" as="geometry">
+            <mxPoint x="416" y="1949" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-94" value="释放Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mypdU1SL2h5hZnq9ZAHb-64">
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-94" value="释放Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-79" target="mypdU1SL2h5hZnq9ZAHb-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="508" y="2430" as="sourcePoint" />
+            <mxPoint x="268" y="2088" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="434" y="2430" />
-              <mxPoint x="434" y="1852" />
+              <mxPoint x="308" y="2059" />
+              <mxPoint x="272" y="2059" />
+              <mxPoint x="272" y="1458" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-96" value="释放Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="922" y="2428" as="sourcePoint" />
-            <mxPoint x="945.5" y="2160" as="targetPoint" />
+            <mxPoint x="760" y="2054" as="sourcePoint" />
+            <mxPoint x="783.5" y="1786" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="922" y="2430" />
-              <mxPoint x="1000" y="2430" />
-              <mxPoint x="1000" y="2160" />
+              <mxPoint x="760" y="2056" />
+              <mxPoint x="838" y="2056" />
+              <mxPoint x="838" y="1786" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-100" value="等待Header加载完成" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1956" width="177" height="72" as="geometry" />
+          <mxGeometry x="598" y="1582" width="177" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-101" value="do/过程发起依赖的预加载请求" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="mypdU1SL2h5hZnq9ZAHb-100">
           <mxGeometry y="40" width="177" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-102" value="&lt;u&gt;收到预加载请求&lt;/u&gt;&lt;br&gt;创建预加载Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="mypdU1SL2h5hZnq9ZAHb-100">
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-102" value="&lt;u&gt;收到预加载请求&lt;/u&gt;&lt;br&gt;创建预加载Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-64" target="mypdU1SL2h5hZnq9ZAHb-100">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="650" y="1855" as="sourcePoint" />
+            <mxPoint x="671" y="1495" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="852" y="1856" />
+              <mxPoint x="671" y="1494" />
+              <mxPoint x="686" y="1495" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-115" value="取消预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-103" target="mypdU1SL2h5hZnq9ZAHb-73">
-          <mxGeometry x="0.512" y="2" relative="1" as="geometry">
+          <mxGeometry x="-0.096" y="8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-103" value="等待Export加载完成" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="782" y="2254" width="140" height="72" as="geometry" />
+          <mxGeometry x="620" y="1880" width="140" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-105" value="加载完成" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=50;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="782" y="2388" width="140" height="72" as="geometry" />
+          <mxGeometry x="620" y="2014" width="140" height="72" as="geometry" />
         </mxCell>
         <mxCell id="mypdU1SL2h5hZnq9ZAHb-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="mypdU1SL2h5hZnq9ZAHb-105">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="852.0000000000002" y="2326" as="sourcePoint" />
+            <mxPoint x="690.0000000000002" y="1952" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-108" value="完成Header加载前收到预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-73" target="mypdU1SL2h5hZnq9ZAHb-100">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-108" value="完成Header加载前收到预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-73" target="mypdU1SL2h5hZnq9ZAHb-100">
+          <mxGeometry x="0.3584" y="-48" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="2138" />
-              <mxPoint x="690" y="1992" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-112" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-101">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1083" y="2051" as="sourcePoint" />
-            <mxPoint x="999" y="1996" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-113" value="完成Header后收到预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-74">
-          <mxGeometry x="0.2385" y="-2" relative="1" as="geometry">
-            <mxPoint x="782.0000000000002" y="2302" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="677" y="2176" />
-              <mxPoint x="677" y="2302" />
+              <mxPoint x="449" y="1618" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mypdU1SL2h5hZnq9ZAHb-114" value="预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="648" y="2430" as="sourcePoint" />
-            <mxPoint x="782.0000000000002" y="2428" as="targetPoint" />
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-112" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-101">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="921" y="1677" as="sourcePoint" />
+            <mxPoint x="837" y="1622" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-113" value="完成Header后收到预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-74">
+          <mxGeometry x="0.2732" y="3" relative="1" as="geometry">
+            <mxPoint x="620.0000000000002" y="1928" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="648" y="2428" />
+              <mxPoint x="416" y="1858" />
+              <mxPoint x="416" y="1928" />
             </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mypdU1SL2h5hZnq9ZAHb-114" value="预加载请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mypdU1SL2h5hZnq9ZAHb-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486" y="2056" as="sourcePoint" />
+            <mxPoint x="620.0000000000002" y="2054" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
