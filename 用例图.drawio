@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T12:09:58.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="fkXItWfmUwlYcctvPA2_" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T12:11:20.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="apMiozozwdxAuGf1N8oi" version="21.3.5" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
     <mxGraphModel dx="1434" dy="5445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1469,29 +1469,34 @@
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-31" value="加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-28" target="YblH_lRjfcoAKF7387uF-32" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1803" y="-925" as="targetPoint" />
+            <mxPoint x="1903" y="-892" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-36" value="预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=20;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-28" target="YblH_lRjfcoAKF7387uF-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-28" value="S1应用层" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="1637" y="-976" width="120" height="80" as="geometry" />
+          <mxGeometry x="1737" y="-943" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-35" value="资源文件内容" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=30;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-29" target="YblH_lRjfcoAKF7387uF-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-29" value="S2 资源文件" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="2156" y="-954" width="120" height="80" as="geometry" />
+          <mxGeometry x="2256" y="-921" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YblH_lRjfcoAKF7387uF-38" value="加载完成信息" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YblH_lRjfcoAKF7387uF-32" target="YblH_lRjfcoAKF7387uF-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YblH_lRjfcoAKF7387uF-38" value="注销预加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YblH_lRjfcoAKF7387uF-28" target="YblH_lRjfcoAKF7387uF-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1857" y="-776" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-39" value="错误信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" parent="1" source="YblH_lRjfcoAKF7387uF-32" target="YblH_lRjfcoAKF7387uF-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CYuPLiYI4bqSPnHgfx0Y-10" value="加载完成信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YblH_lRjfcoAKF7387uF-32" target="YblH_lRjfcoAKF7387uF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-32" value="P0 资源加载子系统" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1901" y="-966" width="120" height="80" as="geometry" />
+          <mxGeometry x="2001" y="-933" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-46" value="F2 加载请求" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-48" target="YblH_lRjfcoAKF7387uF-51" edge="1">
           <mxGeometry relative="1" as="geometry">
