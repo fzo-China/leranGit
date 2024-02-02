@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T15:19:15.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="chPDY5Bw9mSnYYrQRhn0" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T16:40:40.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="LBewmvWFgC96LiN-YTP7" version="22.1.18" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
-    <mxGraphModel dx="942" dy="5185" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="5436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-25" value="资源加载核心基础模块" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="194.75" y="2181.5" width="550" height="86.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-23" value="资源加载子系统" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="380.75" y="2087.75" width="179" height="86.75" as="geometry" />
+        </mxCell>
         <mxCell id="dfOW4K_DTM-c1GNN504s-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="433" y="831" width="604" height="574" as="geometry" />
         </mxCell>
@@ -12,15 +18,6 @@
         </mxCell>
         <mxCell id="OjH95VNMH06rgQmlFu-A-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="372" y="42" width="521" height="504" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-1" value="资源加载&lt;br&gt;优化系统" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;align=left;spacingLeft=20;" parent="1" vertex="1">
-          <mxGeometry x="203" y="2237" width="821" height="356" as="geometry" />
-        </mxCell>
-        <mxCell id="ONUO1uYrzvXnYuFN3JUQ-63" value="引擎层" style="html=1;whiteSpace=wrap;align=left;spacingLeft=10;" parent="1" vertex="1">
-          <mxGeometry x="290" y="2390" width="722" height="191" as="geometry" />
-        </mxCell>
-        <mxCell id="ONUO1uYrzvXnYuFN3JUQ-62" value="应用层" style="html=1;whiteSpace=wrap;align=left;spacingLeft=10;" parent="1" vertex="1">
-          <mxGeometry x="290" y="2247" width="722" height="135" as="geometry" />
         </mxCell>
         <mxCell id="ONUO1uYrzvXnYuFN3JUQ-59" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" parent="1" vertex="1">
           <mxGeometry x="2046" y="2901" width="20" height="300" as="geometry" />
@@ -36,15 +33,6 @@
         </mxCell>
         <mxCell id="oBDPWb_dUn6fhDHdspVm-96" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=42;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2527.5" y="2305" width="557" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="YblH_lRjfcoAKF7387uF-6" value="图形化工具" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;verticalAlign=middle;horizontal=1;spacingTop=0;spacingLeft=15;" parent="1" vertex="1">
-          <mxGeometry x="554" y="2258" width="220" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-20" value="客户端开发" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;verticalAlign=middle;horizontal=1;spacingTop=0;spacingLeft=15;" parent="1" vertex="1">
-          <mxGeometry x="778" y="2258" width="225" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-18" value="资源加载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;align=left;spacingLeft=15;" parent="1" vertex="1">
-          <mxGeometry x="779.13" y="2403" width="223.87" height="166" as="geometry" />
         </mxCell>
         <mxCell id="fqN8ckmAZZ526LuIhZjZ-38" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=42;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2524" y="1853" width="552" height="419" as="geometry" />
@@ -1295,40 +1283,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-0Z50zZQt-sRkZ2VhdsI-2" value="C++接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="871" y="2319.5" width="120" height="45" as="geometry" />
+          <mxGeometry x="388.75" y="2145.13" width="157" height="23" as="geometry" />
         </mxCell>
         <mxCell id="-0Z50zZQt-sRkZ2VhdsI-3" value="蓝图接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="870.13" y="2266" width="120" height="45" as="geometry" />
+          <mxGeometry x="387.75" y="2114.5" width="158" height="25.63" as="geometry" />
         </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-4" value="打包工具界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="639" y="2320.5" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-5" value="性能测试工具界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="639" y="2267" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-6" value="预加载器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="876" y="2412" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-7" value="资源加载器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="876" y="2464" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-8" value="块加载器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="876" y="2515" width="120" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-12" value="Trace框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="2489" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-14" value="Unreal Automation Tool" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="351" y="2403" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-16" value="Slate UI框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="2403" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-17" value="Unreal Pak" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="351" y="2489" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YblH_lRjfcoAKF7387uF-7" value="自动化脚本" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="350" y="2258" width="199" height="115" as="geometry" />
+        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-6" value="预加载管理器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="226.25" y="2208.13" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-11" value="性能数据" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-8" target="YblH_lRjfcoAKF7387uF-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4384,6 +4345,60 @@
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-19" value="游戏专用子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="297.5" y="2643" width="484.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-20" value="系统UI界面" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="194.75" y="2058" width="550" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-21" value="资源打包工具" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="194.75" y="2087.75" width="179" height="86.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-22" value="资源调整" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="206.75" y="2114.5" width="159" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-24" value="性能测试工具" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="565.75" y="2087.75" width="179" height="86.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-26" value="性能剖析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="2208.13" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-27" value="资源打包" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="206.75" y="2142.63" width="159" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-28" value="结构化日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.75" y="2115.13" width="158" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-29" value="可视化窗口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572.75" y="2145.13" width="158" height="23.63" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-30" value="加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="2208.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-31" value="虚幻引擎核心模块" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="195.25" y="2274.13" width="550" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-16" value="UI基础框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="209.75" y="2301.13" width="130" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-12" value="Trace框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="209.75" y="2336.13" width="131" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-0Z50zZQt-sRkZ2VhdsI-17" value="Unreal Pak模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="347.75" y="2301.13" width="121" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-33" value="多线程框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347.75" y="2335.13" width="121" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-34" value="依赖管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610.75" y="2208.13" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RLQWsfEnAfLO9PvsEBvD-35" target="RLQWsfEnAfLO9PvsEBvD-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-35" value="游戏资源加载优化系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="917" y="2135" width="169" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-36" value="资源加载子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="829" y="2301.13" width="169" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
