@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T16:40:40.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="LBewmvWFgC96LiN-YTP7" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-03T10:07:11.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="gvpyeCyJXEXfzWnpFiy-" version="22.1.18" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
-    <mxGraphModel dx="1413" dy="5436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1151" dy="5297" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1289,7 +1289,7 @@
           <mxGeometry x="387.75" y="2114.5" width="158" height="25.63" as="geometry" />
         </mxCell>
         <mxCell id="-0Z50zZQt-sRkZ2VhdsI-6" value="预加载管理器" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="226.25" y="2208.13" width="120" height="45" as="geometry" />
+          <mxGeometry x="209.75" y="2208.13" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="YblH_lRjfcoAKF7387uF-11" value="性能数据" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YblH_lRjfcoAKF7387uF-8" target="YblH_lRjfcoAKF7387uF-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4359,7 +4359,7 @@
           <mxGeometry x="565.75" y="2087.75" width="179" height="86.75" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-26" value="性能剖析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="357" y="2208.13" width="120" height="45" as="geometry" />
+          <mxGeometry x="343" y="2208.13" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-27" value="资源打包" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="206.75" y="2142.63" width="159" height="23.5" as="geometry" />
@@ -4371,7 +4371,7 @@
           <mxGeometry x="572.75" y="2145.13" width="158" height="23.63" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-30" value="加载器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="482" y="2208.5" width="120" height="45" as="geometry" />
+          <mxGeometry x="476.5" y="2208.13" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-31" value="虚幻引擎核心模块" style="html=1;whiteSpace=wrap;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="195.25" y="2274.13" width="550" height="104" as="geometry" />
@@ -4383,10 +4383,10 @@
           <mxGeometry x="209.75" y="2336.13" width="131" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-0Z50zZQt-sRkZ2VhdsI-17" value="Unreal Pak模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="347.75" y="2301.13" width="121" height="28" as="geometry" />
+          <mxGeometry x="411" y="2301.13" width="121" height="28" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-33" value="多线程框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="347.75" y="2335.13" width="121" height="28" as="geometry" />
+          <mxGeometry x="411" y="2335.13" width="121" height="28" as="geometry" />
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-34" value="依赖管理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610.75" y="2208.13" width="120" height="45" as="geometry" />
@@ -4399,6 +4399,18 @@
         </mxCell>
         <mxCell id="RLQWsfEnAfLO9PvsEBvD-36" value="资源加载子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="829" y="2301.13" width="169" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-39" value="文件系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="2336.13" width="121" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-40" value="第三方软件开发包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="195.25" y="2414" width="549.75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-41" value="平台独立包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C4C4C4;" vertex="1" parent="1">
+          <mxGeometry x="195.25" y="2384" width="549.75" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="RLQWsfEnAfLO9PvsEBvD-42" value="蓝图系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="2301.13" width="121" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
