@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T14:08:27.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="KXC_4SucAvtZRD8qXBae" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-16T14:13:07.130Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="xvJ9TrhS_oyZ9OdrxwvV" version="24.0.5" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
     <mxGraphModel dx="4670" dy="5406" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7195,7 +7195,7 @@
         <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--34" value="Editor" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-939" y="2431" width="329" height="277" as="geometry" />
         </mxCell>
-        <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--35" value="Client" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--35" value="Runtime" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-535" y="2545" width="309" height="264" as="geometry" />
         </mxCell>
         <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--36" value="Insights" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
@@ -7248,7 +7248,7 @@
         <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--55" value="Trace模块" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-437" y="2748" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--56" value="用户接口" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--56" value="资源加载器" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-433" y="2580.5" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W0M9Cvo-xOA7PSQ6GuJ--57" value="资源加载管理" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
