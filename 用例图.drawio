@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T17:05:50.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZG_rqLoJxbeP4SjAnkJD" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T17:24:13.018Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="tARw3j0Hj3oH9WkQr0YM" version="24.0.7" type="github">
   <diagram id="nxmhDV0lL2kCGaxVaUN5" name="第 1 页">
     <mxGraphModel dx="4487" dy="5310" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="431.5" y="898" width="604" height="465" as="geometry" />
         </mxCell>
         <mxCell id="OjH95VNMH06rgQmlFu-A-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="30" width="506" height="549" as="geometry" />
+          <mxGeometry x="1055" y="93" width="506" height="436" as="geometry" />
         </mxCell>
         <mxCell id="OjH95VNMH06rgQmlFu-A-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="255.75" y="46" width="582.25" height="504" as="geometry" />
@@ -2601,20 +2601,11 @@
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-2" value="分析数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1107" y="390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZzgJVwLtim4r5TSqz_pw-3" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="ZzgJVwLtim4r5TSqz_pw-1" target="ZzgJVwLtim4r5TSqz_pw-4" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1333" y="170" as="sourcePoint" />
-            <mxPoint x="1423" y="55" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzgJVwLtim4r5TSqz_pw-4" value="采集数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1399" y="38" width="140" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-6" value="传输数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1397" y="115" width="140" height="70" as="geometry" />
+          <mxGeometry x="1407" y="100" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-7" value="存储数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1397" y="195" width="140" height="70" as="geometry" />
+          <mxGeometry x="1312" y="165" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-9" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="ZzgJVwLtim4r5TSqz_pw-1" target="ZzgJVwLtim4r5TSqz_pw-6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2635,16 +2626,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-12" value="提取数据" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1399" y="277" width="140" height="70" as="geometry" />
+          <mxGeometry x="1278" y="246" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-13" value="配置统计参数" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1399" y="351" width="140" height="70" as="geometry" />
+          <mxGeometry x="1413" y="285" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-14" value="计算性能概况" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1399" y="425" width="140" height="70" as="geometry" />
+          <mxGeometry x="1388" y="370" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-15" value="查看数据详情" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1399" y="499" width="140" height="70" as="geometry" />
+          <mxGeometry x="1319" y="446" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZzgJVwLtim4r5TSqz_pw-16" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="ZzgJVwLtim4r5TSqz_pw-2" target="ZzgJVwLtim4r5TSqz_pw-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
